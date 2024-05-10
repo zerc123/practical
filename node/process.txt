@@ -1,0 +1,25 @@
+cmd :
+
+npm init 
+
+npm install express --save
+
+creat folder public 
+creat index.html in public folder 
+
+open index.js 
+type {
+const express = require('express')
+
+const app = express()
+
+app.use(express.static('public'))
+
+app.listen(4000, ()=>{
+    console.log("server is starting ")
+})
+
+}
+
+cmd 
+node index.js

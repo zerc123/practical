@@ -1,0 +1,29 @@
+Install docker from document docker
+Open it and cmd line
+docker -v
+docker images
+docker ps (//containers running)
+docker pull openjdk
+docker images
+docker run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA jshell
+system.out.println("hello docker ")
+Int a =1
+Int b=3
+sout(a+b)
+docker ps
+/Exit
+Docker ps
+Docker container rm cont_id..
+Docker stop cont_id..
+Docker container rm cont_id..
+Docker ps
+Docker images
+Docker image prune (delete images )
+
+
+
+sudo python3 filename 
+-v -i lo
+ 

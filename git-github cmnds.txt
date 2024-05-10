@@ -1,0 +1,46 @@
+mkdir (directory name )
+
+cd (direcctory name ) 
+
+git init 
+
+git add . OR (filename with extension)
+
+git status 
+
+git remote add origin "link copy from git hub new repo"
+
+git commit 
+
+git push -u origini master 
+
+
+Cd Desktop
+Mkdir Story 
+Cd story
+Ls
+Touch chapter1.txt
+Open chapter1.txt (add some code/text to it)
+git init
+Ls -a
+Git status
+Git add chapter1.txt
+Git status
+Git commit /m "completed chapt 1"
+Git log
+Touch chapter2.txt chapter3.txt (add some data)
+Git status
+Git add .   (//Ads both together)
+Git status
+Git commit -m "added chp 2,3"
+Git log
+(Mess up some chapter)
+Git status
+Git diff chapter3.txt
+Git checkout chapter3.txt
+
+Create repo on GitHub
+Create account, create repo ,
+
+Git remote add origin git-repo-link
+Git push -u origina master
